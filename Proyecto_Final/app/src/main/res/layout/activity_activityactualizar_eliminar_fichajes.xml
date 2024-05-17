@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary"
+    tools:context=".Activities.ActivityactualizarEliminarFichajes">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:text="Empleado:" />
+
+        <TextView
+            android:id="@+id/nombreEmpleado"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:text="Codigo:" />
+        <TextView
+            android:id="@+id/codigoEmpleado"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:text="TextView" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:text="Fecha:" />
+
+        <EditText
+            android:id="@+id/fecha"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:layout_marginRight="10dp"
+            android:inputType="text"
+            android:layout_marginLeft="10dp"
+            android:text="Nombre:" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="H. Entrada:" />
+
+        <EditText
+            android:id="@+id/horaEntrada"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Apellido:" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="H. Salida:" />
+
+        <EditText
+            android:id="@+id/horaSalida"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Correo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Horas:" />
+
+        <EditText
+            android:id="@+id/horas"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="correo" />
+
+        <Button
+            android:id="@+id/buttonGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:background="@drawable/main_button_background1"
+            android:text="Guardar" />
+
+        <Button
+            android:id="@+id/buttonEliminar"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_button_background1"
+            android:text="Eliminar" />
+    </LinearLayout>
+
+
+</LinearLayout>

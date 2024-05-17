@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Fichar"
+        android:title="Fichar"
+        android:icon="@drawable/fichar"
+        />
+    <item
+        android:id="@+id/Fichajes"
+        android:title="Mis Fichajes"
+        android:icon="@drawable/fichajes"
+        />
+    <item
+        android:id="@+id/extras"
+        android:title="Horas Extras"
+        android:icon="@drawable/horas_extras"
+        />
+    <item
+        android:id="@+id/solicitudes"
+        android:title="solicitudes"
+        android:icon="@drawable/solicitudes"
+        />
+    <item
+        android:id="@+id/nomionas"
+        android:title="Nominas"
+        android:icon="@drawable/nominas"
+        />
+    <item
+        android:id="@+id/miCuneta"
+        android:title="Mi Cuenta"
+        android:icon="@drawable/micuenta"
+        />
+    <item
+        android:id="@+id/acerca"
+        android:title="Acerca"
+        android:icon="@drawable/device_information_24"/>
+    <item
+        android:id="@+id/cerrar"
+        android:title="Cerrar sesión"
+        android:icon="@drawable/close_24"
+        />
+
+
+</menu>

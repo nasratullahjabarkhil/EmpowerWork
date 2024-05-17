@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/alta"
+        android:title="Alta Empleado"
+        android:icon="@drawable/registration_24"
+        />
+    <item
+        android:id="@+id/consultarEmpleados"
+        android:title="Consultar Empleados"
+        android:icon="@drawable/delete_24"
+        />
+    <item
+        android:id="@+id/consultarFichajes"
+        android:title="Consultar Fichajes"
+        android:icon="@drawable/edit_24"
+        />
+    <item
+        android:id="@+id/consultarSolicitud"
+        android:title="Consultar Solicitudes"
+        android:icon="@drawable/search_24"
+        />
+    <item
+        android:id="@+id/nominas"
+        android:title="Nominas"
+        android:icon="@drawable/nominas"
+        />
+    <item
+        android:id="@+id/acerca"
+        android:title="Acerca"
+        android:icon="@drawable/device_information_24"/>
+    <item
+        android:id="@+id/cerrar"
+        android:title="Cerrar sesión"
+        android:icon="@drawable/close_24"
+        />
+
+
+</menu>

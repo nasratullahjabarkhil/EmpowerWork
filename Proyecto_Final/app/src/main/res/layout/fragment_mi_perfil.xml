@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/primary"
+    tools:context=".Fragments.FragmentoMiPerfil">
+
+    <TextView
+        android:id="@+id/textViewNombreUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="No olvides de guardar los cambios"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:hint="Nombre"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextApellido"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Apellido"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextPuesto"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Puesto"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:editable="false"
+        />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Contraseña"
+        android:drawableRight="@drawable/baseline_visibility_off_black_24"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="16dp"
+        android:inputType="textPassword"
+        android:layout_marginEnd="16dp" />
+    <EditText
+        android:id="@+id/editTextPasswordRepeat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableRight="@drawable/baseline_visibility_off_black_24"
+        android:hint="Repetir contraseña"
+        android:layout_marginTop="400dp"
+        android:inputType="textPassword"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cardCornerRadius="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/imageViewPerfil"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/empleado"
+            android:background="@color/secondary"
+            android:scaleType="centerCrop" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/buttonSeleccionarImagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_button_background1"
+        android:text="Seleccionar Imagen"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="90dp"/>
+
+    <Button
+        android:id="@+id/buttonGuardarCambios"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_button_background1"
+        android:text="Guardar Cambios"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="140dp"/>
+
+
+</FrameLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".Activities.ActivityEliminarActualizarSolicitudes">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:id="@+id/idSolicitudEmp"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:visibility="invisible"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Empleado:" />
+
+            <TextView
+                android:id="@+id/nombreEmpleado"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColor="@color/black"
+                android:text="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Codigo:" />
+            <TextView
+                android:id="@+id/codigoEmp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:text="codigo"
+                ></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:text="Fecha inicio:" />
+            <EditText
+                android:id="@+id/fInicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:hint="Fecha Inicio"
+                ></EditText>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:text="Fecha fin:" />
+            <EditText
+                android:id="@+id/fFin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:hint="Fecha Fin"
+                ></EditText>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:text="Tipo:" />
+            <EditText
+                android:id="@+id/tipoSolicitud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:hint="Tip"
+                ></EditText>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:text="Observaciones:" />
+            <EditText
+                android:id="@+id/obsSolicitud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Observaciones"
+                android:textColor="@color/black"
+                ></EditText>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Días:" />
+            <EditText
+                android:id="@+id/diasSolicitud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Dias"
+                android:textColor="@color/black"
+                ></EditText>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:text="Estado:" />
+            <Spinner
+                android:id="@+id/spinnerEstado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"/>
+
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="Guardar"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/main_button_background1"
+                android:layout_marginTop="15dp"
+                ></Button>
+            <Button
+                android:id="@+id/BtnEliminar"
+                android:background="@drawable/main_button_background1"
+                android:layout_width="200dp"
+                android:textColor="@color/red"
+                android:layout_height="50dp"
+                android:text="Eliminar"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                ></Button>
+
+
+        </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

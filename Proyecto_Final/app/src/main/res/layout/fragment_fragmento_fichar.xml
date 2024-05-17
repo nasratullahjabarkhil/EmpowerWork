@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".Fragments.FragmentoFichar">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="200dp"
+        android:layout_height="192dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/reloj"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutEntrar"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/main_button_background1"
+        android:layout_marginTop="240dp">
+        <ImageView
+            android:id="@+id/entrarImage"
+            android:layout_width="94dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/entrar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="22dp"
+            android:text="ENTRAR"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayoutSalir"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/main_button_background1"
+        android:layout_marginTop="350dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="22dp"
+            android:text="SALIR"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/salirImage"
+            android:layout_width="94dp"
+            android:layout_marginLeft="70dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/entrar" />
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

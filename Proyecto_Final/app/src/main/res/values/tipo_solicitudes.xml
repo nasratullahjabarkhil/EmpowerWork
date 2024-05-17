@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tipos_solicitud">
+        <item>Seleccionar tipo de solicitud</item>
+        <item>BAJA</item>
+        <item>VAC</item>
+        <item>DEV_FEST</item>
+    </string-array>
+
+
+</resources>

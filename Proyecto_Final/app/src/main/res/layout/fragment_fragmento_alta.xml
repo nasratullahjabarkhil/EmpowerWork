@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frameLaoutAlta"
+    android:background="@color/primary"
+    tools:context=".Fragments.FragmentoAlta">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageRegistrar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#2979FF"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/registrar" />
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Nombre del empleado"
+        android:drawableRight="@drawable/username"
+        android:backgroundTint="#2979FF"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/editTextApellido"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:drawableRight="@drawable/username"
+        android:layout_gravity="center"
+        android:hint="Apellido del empleado"
+        android:backgroundTint="#2979FF"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+/>
+
+    <EditText
+        android:id="@+id/editTextPuesto"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:drawableRight="@drawable/job"
+        android:hint="Puesto del empleado"
+        android:backgroundTint="#2979FF"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:drawableRight="@drawable/usuario"
+        android:hint="Correo Electrónico"
+        android:backgroundTint="#2979FF"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#000000"/>
+
+
+    <Button
+        android:id="@+id/buttonAltaEmpleado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/main_button_background1"
+        android:text="Dar de Alta"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</FrameLayout>
